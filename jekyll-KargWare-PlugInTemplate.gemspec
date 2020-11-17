@@ -3,8 +3,8 @@ require_relative 'lib/jekyll/KargWare/PlugInTemplate/version'
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-KargWare-PlugInTemplate"
   spec.version       = Jekyll::KargWare::PlugInTemplate::VERSION
-  spec.authors       = ["Nicolas Karg"]
-  spec.email         = ["spam-and-junk@n13.org"]
+  spec.authors       = ['Nicolas Karg', 'n13.org - Open-Source by KargWare']
+  spec.email         = ["rubygems.org@n13.org"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
