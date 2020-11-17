@@ -72,3 +72,23 @@ git add *.gemspec
 git commit -m "Set dependency to jekyll"
 git push
 ```
+
+Move the `Gemfile` to the root folder
+
+```shell
+mv jekyll-{MyCompany}-{MyProject}/Gemfile ./
+git add Gemfile
+git commit -m "Add Gemfile"
+git push
+```
+
+Install `rubocop` as linting tool
+
+```
+bundle add rubocop --skip-instal
+bundle add rubocop-minitest --skip-install
+bundle add rubocop-performance --skip-install
+git add Gemfile
+git commit -m "Add rubocop as linting"
+git push
+```
