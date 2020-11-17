@@ -32,3 +32,7 @@ git commit -m "Add vscode workspace file"
 git push
 code -n ./jekyll-plugin-template.code-workspace
 ```
+
+Make the project on GitHub [settings](https://github.com/n13org/jekyll-plugin-template/settings) to a `Template repository`.
+
+![GitHub project settings - template repository](docu-img/TemplateRepository.png)
