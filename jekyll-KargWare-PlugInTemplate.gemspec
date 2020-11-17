@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://kargware.com"
 
   spec.metadata      = {
-    'homepage_uri'    => spec.homepage
+    'homepage_uri'    => spec.homepage,
     'bug_tracker_uri' => 'https://github.com/n13org/jekyll-plugin-template/issues',
     'source_code_uri' => 'https://github.com/n13org/jekyll-plugin-template'
   }
