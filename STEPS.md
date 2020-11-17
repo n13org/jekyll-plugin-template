@@ -36,3 +36,23 @@ code -n ./jekyll-plugin-template.code-workspace
 Make the project on GitHub [settings](https://github.com/n13org/jekyll-plugin-template/settings) to a `Template repository`.
 
 ![GitHub project settings - template repository](docu-img/TemplateRepository.png)
+
+Initialize [bundler](https://bundler.io/man/bundle-gem.1.html) with a new gem. Move the content of `lib` and `test`to the root. Replace `{MyCompany}` and `{MyProject}` with your values. In the example the values were `KargWare` and `PlugInTemplate`.
+
+```shell
+bundle gem jekyll-{MyCompany}-{MyProject} --test=minitest --no-mit --no-coc --no-exe --no-ext
+mv jekyll-{MyCompany}-{MyProject}/lib/ ./
+mv jekyll-{MyCompany}-{MyProject}/test/ ./
+git add lib/* test/*
+git commit -m "Add 'bundle gem' generated files"
+git push
+```
+
+Move the generated `gemspec` file to the root folder. Check the data, remove unused blocks and solve `TODOs` inside the `gemspec` file and push the file
+
+```shell
+mv jekyll-{MyCompany}-{MyProject}/*.gemspec ./
+git add *.gemspec
+git commit -m "Add generated 'gemspec' file"
+git push
+```
