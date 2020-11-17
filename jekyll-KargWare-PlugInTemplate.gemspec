@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Nicolas Karg', 'n13.org - Open-Source by KargWare']
   spec.email         = ["rubygems.org@n13.org"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{A template project for jekyll plugins.}
+  spec.description   = %q{A template project for jekyll plugins with some additional content}
   spec.homepage      = "https://kargware.com"
 
   spec.metadata      = {
