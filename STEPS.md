@@ -56,3 +56,19 @@ git add *.gemspec
 git commit -m "Add generated 'gemspec' file"
 git push
 ```
+
+Add the dependency to **jekyll** to `gemspec`
+
+```ruby
+Gem::Specification.new do |spec|
+    ...
+    spec.add_dependency 'jekyll', '>= 3.8'
+    ...
+end
+```
+
+```shell
+git add *.gemspec
+git commit -m "Set dependency to jekyll"
+git push
+```
