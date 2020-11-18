@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "jekyll/KargWare/PlugInTemplate/version"
+require 'jekyll/KargWare/PlugInTemplate/version'
 
 module Jekyll
   module KargWare
