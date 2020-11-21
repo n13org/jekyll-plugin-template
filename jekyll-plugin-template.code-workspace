@@ -21,6 +21,7 @@
         {
             "name": "NewJekyllPlugInAsRubyGem",
             "customVariables": [],
+            "omitParentDirectory": true,
             "structure": [
                 {
                     "fileName": ".gitignore",
