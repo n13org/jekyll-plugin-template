@@ -402,7 +402,8 @@
             "      VERSION = '0.1.0'",
             "    end",
             "  end",
-            "end"
+            "end",
+            ""
         ],
         "NewJekyllPlugInAsRubyGem-lib/jekyll/KargWare/PlugInTemplate.rb": [
             "# frozen_string_literal: true",
