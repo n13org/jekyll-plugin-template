@@ -92,3 +92,11 @@ git add Gemfile
 git commit -m "Add rubocop as linting"
 git push
 ```
+
+Use the [VS-Code Fast Folder Structure Extension](https://marketplace.visualstudio.com/items?itemName=Huuums.vscode-fast-folder-structure), [Code](https://github.com/Huuums/vscode-fast-folder-structure) and cretae the template `NewJekyllPlugInAsRubyGem`
+
+       "customVariables": [
+          "Company",
+          "Project"
+        ],
+        "omitParentDirectory": true,
