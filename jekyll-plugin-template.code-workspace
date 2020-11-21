@@ -20,7 +20,10 @@
     "fastFolderStructure.structures": [
         {
             "name": "NewJekyllPlugInAsRubyGem",
-            "customVariables": [],
+            "customVariables": [
+              "Company",
+              "Project"
+            ],
             "omitParentDirectory": true,
             "structure": [
                 {
