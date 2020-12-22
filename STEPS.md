@@ -93,6 +93,42 @@ git commit -m "Add rubocop as linting"
 git push
 ```
 
+## Folder and File Structure
+
+The variables will be filled by the default-value. 
+
+|Variable|Default-Value        |
+|--------|---------------------|
+|Company |KargWare             |
+|Project |JekyllPlugInTemplate |
+
+The file `jekyll-plugin-template.code-workspace` is part of the template and will not be generated.
+
+In the text below are the variables wrapped with `<<VarName>>`. 
+
+```text
+├── .gitignore
+├── .rubocop.yml
+├── Gemfile
+├── Gemfile.lock
+├── Rakefile
+├── jekyll-<<Company>>-<<Project>>.gemspec
+├── lib
+│   └── jekyll
+│       └── <<Company>>
+│           ├── <<Project>>
+│           │   ├── configuration.rb
+│           │   └── version.rb
+│           └── <<Project>>.rb
+└── test
+    ├── jekyll
+    │   └── <<Company>>
+    │       └── <<Project>>
+    │           ├── configuration_test.rb
+    │           └── version_test.rb
+    └── test_helper.rb
+```
+
 Use the [VS-Code Fast Folder Structure Extension](https://marketplace.visualstudio.com/items?itemName=Huuums.vscode-fast-folder-structure), [Code](https://github.com/Huuums/vscode-fast-folder-structure) and cretae the template `NewJekyllPlugInAsRubyGem`
 
        "customVariables": [
