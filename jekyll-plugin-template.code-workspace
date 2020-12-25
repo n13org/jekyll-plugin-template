@@ -4,10 +4,9 @@
   }],
   "extensions": {
     "recommendations": [
-      "Huuums.vscode-fast-folder-structure",
-      "esbenp.prettier-vscode",
-      "rebornix.ruby",
-      "wayou.vscode-todo-highlight"
+      "streetsidesoftware.code-spell-checker",
+      "streetsidesoftware.code-spell-checker-german",
+      "Huuums.vscode-fast-folder-structure"
     ]
   },
   "settings": {
