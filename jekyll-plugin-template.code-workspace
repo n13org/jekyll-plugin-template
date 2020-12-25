@@ -164,7 +164,7 @@
         "NewJekyllPlugInAsRubyGem-Gemfile": [
             "source \"https://rubygems.org\"",
             "",
-            "# Specify your gem's dependencies in jekyll-KargWare-PlugInTemplate.gemspec",
+                "# Specify your gem's dependencies in jekyll-<Company>-<Project>.gemspec",
             "gemspec",
             "",
             "gem \"rake\", \"~> 12.0\"",
