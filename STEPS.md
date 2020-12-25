@@ -97,10 +97,11 @@ git push
 
 The variables will be filled by the default-value. 
 
-|Variable|Default-Value        |
-|--------|---------------------|
-|Company |KargWare             |
-|Project |JekyllPlugInTemplate |
+|Variable|Default-Value        |Note|
+|--------|---------------------|---|
+|FTName  |                     | Is a default variable, which is part of the extension. **My template is not using it.**|
+|Company |KargWare             | The company is part of the namespaces and folder structure|
+|Project |JekyllPlugInTemplate | The project is part of the namespaces and folder structure|
 
 The file `jekyll-plugin-template.code-workspace` is part of the template and will not be generated.
 
