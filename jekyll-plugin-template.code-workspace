@@ -34,12 +34,11 @@
 			"editor.autoIndent": "full",
 			"files.trimTrailingWhitespace": true
     },
-    "fastFolderStructure.structures": [
-        {
+        "folderTemplates.structures": [{
             "name": "NewJekyllPlugInAsRubyGem",
             "customVariables": [
-              "Company",
-              "Project"
+                "Company=>KargWare",
+                "Project=>JekyllPlugInTemplate"
             ],
             "omitParentDirectory": true,
             "structure": [
@@ -92,9 +91,7 @@
                     "template": "NewJekyllPlugInAsRubyGem-test/test_helper.rb"
                 }
             ]
-        }
-    ],
-    "fastFolderStructure.fileTemplates": {
+        "folderTemplates.fileTemplates": {
         "NewJekyllPlugInAsRubyGem-.gitignore": [
             "# gems",
             "*.gem",
