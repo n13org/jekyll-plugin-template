@@ -33,9 +33,4 @@
     "Rakefile",
     "Struct"
   ],
-
-  // Extension: Folder Templates
-  "folderTemplates.structures": {
-    "omitParentDirectory": true
-  }
 }
