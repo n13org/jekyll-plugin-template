@@ -2,6 +2,24 @@
   // VS Code
   "editor.renderWhitespace": "all",
 
+  // Language: JSON
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "full",
+    "files.trimTrailingWhitespace": true
+  },
+
+  // Language: JSON with Comments
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "full",
+    "files.trimTrailingWhitespace": true
+  },
+
   // Language: Ruby
   "[ruby]": {
     "editor.tabSize": 2,
@@ -25,12 +43,15 @@
     ".vscode-insiders"
   ],
   "cSpell.words": [
+    "ftsettings",
     "Huuums",
     "jekyll",
     "Karg",
     "KargWare",
     "Nicolas",
+    "paramcase",
     "Rakefile",
+    "rdoc",
     "Struct"
   ],
 }
