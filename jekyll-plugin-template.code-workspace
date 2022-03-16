@@ -3,30 +3,6 @@
     "path": "."
   }],
   "settings": {
-    "cSpell.ignorePaths": [
-      "**/**.code-workspace",
-      "**/Gemfile",
-      "**/Gemfile.lock",
-      "**/package-lock.json",
-      "**/node_modules/**",
-      "**/vscode-extension/**",
-      "**/.git/objects/**",
-      ".vscode",
-      ".vscode-insiders"
-    ],
-    "cSpell.language": "en,de",
-    "cSpell.words": [
-      "Huuums",
-      "Karg",
-      "KargWare"
-    ],
-    "[ruby]": {
-      "editor.tabSize": 2,
-      "editor.insertSpaces": true,
-      "editor.formatOnSave": true,
-      "editor.autoIndent": "full",
-      "files.trimTrailingWhitespace": true
-    },
     "folderTemplates.structures": [{
       "name": "NewJekyllPlugInAsRubyGem",
       "customVariables": [
