@@ -29,7 +29,9 @@
     "jekyll",
     "Karg",
     "KargWare",
-    "Nicolas"
+    "Nicolas",
+    "Rakefile",
+    "Struct"
   ],
 
   // Extension: Folder Templates
