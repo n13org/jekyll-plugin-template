@@ -10,10 +10,7 @@
         "Project=>JekyllPlugInTemplate"
       ],
       "omitParentDirectory": true,
-      "structure": [{
-          "fileName": ".gitignore",
-          "template": "NewJekyllPlugInAsRubyGem-.gitignore"
-        },
+      "structure": [
         {
           "fileName": "Gemfile",
           "template": "NewJekyllPlugInAsRubyGem-Gemfile"
@@ -56,30 +53,6 @@
         }
       ]
     }],
-    "folderTemplates.fileTemplates": {
-      "NewJekyllPlugInAsRubyGem-.gitignore": [
-        "# gems",
-        "*.gem",
-        "/Gemfile.lock",
-        "*.gemfile.lock",
-        "/gems/",
-        "",
-        "# local gem package folder",
-        "/pkg/",
-        "",
-        "# tests / test coverage",
-        ".jekyll-cache/",
-        "/coverage",
-        "",
-        "# bundler",
-        "/.bundle/",
-        "/vendor/bundle/",
-        "/gemfiles/.bundle/",
-        "/gemfiles/vendor/bundle/",
-        "",
-        "# unsorted",
-        ""
-      ],
       "NewJekyllPlugInAsRubyGem-Gemfile": [
         "source \"https://rubygems.org\"",
         "",
