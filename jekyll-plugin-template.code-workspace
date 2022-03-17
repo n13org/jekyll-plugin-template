@@ -12,10 +12,6 @@
   //     "omitParentDirectory": true,
   //     "structure": [
   //       {
-  //         "fileName": "Rakefile",
-  //         "template": "NewJekyllPlugInAsRubyGem-Rakefile"
-  //       },
-  //       {
   //         "fileName": "lib/jekyll/<Company>/<Project>/configuration.rb",
   //         "template": "NewJekyllPlugInAsRubyGem-lib/jekyll/KargWare/PlugInTemplate/configuration.rb"
   //       },
@@ -38,37 +34,6 @@
   //     ]
   //   }],
   //   "folderTemplates.fileTemplates": {
-  //     "NewJekyllPlugInAsRubyGem-Rakefile": [
-  //       "# frozen_string_literal: true",
-  //       "",
-  //       "require 'bundler/gem_tasks'",
-  //       "",
-  //       "task default: [:test]",
-  //       "",
-  //       "def name",
-  //       "  Jekyll::<Company>::<Project>::RUBYGEM_NAME",
-  //       "end",
-  //       "",
-  //       "def version",
-  //       "  Jekyll::<Company>::<Project>::VERSION",
-  //       "end",
-  //       "",
-  //       "require 'rake/testtask'",
-  //       "Rake::TestTask.new(:test) do |test|",
-  //       "  test.libs << 'lib' << 'test'",
-  //       "  test.pattern = 'test/**/*_test.rb'",
-  //       "  test.verbose = true",
-  //       "end",
-  //       "",
-  //       "require 'rdoc/task'",
-  //       "Rake::RDocTask.new do |rdoc|",
-  //       "  rdoc.rdoc_dir = 'rdoc'",
-  //       "  rdoc.title = \"#{name} #{version}\"",
-  //       "  rdoc.rdoc_files.include('README*')",
-  //       "  rdoc.rdoc_files.include('lib/**/*.rb')",
-  //       "end",
-  //       ""
-  //     ],
   //     "NewJekyllPlugInAsRubyGem-lib/jekyll/KargWare/PlugInTemplate/configuration.rb": [
   //       "# frozen_string_literal: true",
   //       "",
