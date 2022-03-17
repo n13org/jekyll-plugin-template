@@ -1,4 +1,4 @@
-require_relative 'lib/jekyll/<Company | pascalcase>/<Project | pascalcase>/version'
+require_relative 'lib/<ProjectName | lowercase?paramcase>/version'
 
 Gem::Specification.new do |spec|
   spec.name          = Jekyll::<Company | pascalcase>::<Project | pascalcase>::RUBYGEM_NAME

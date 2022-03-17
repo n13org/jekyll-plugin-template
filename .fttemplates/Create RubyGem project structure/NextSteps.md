@@ -4,32 +4,42 @@
 
 Your input variables defined in `.ftsettings.json` for the template:
 
-| Key         | Value         | Default             |
-|-------------|---------------|---------------------|
-| Company     | <Company>     | KargWare            |
-| Project     | <Project>     | NewPlugIn           |
-| ProjectName | <ProjectName> | jekyll-kw-NewPlugIn |
+| Key         | Default             | Transform           |
+|-------------|---------------------|---------------------|
+| Company     | KargWare            | pascalcase          |
+| Project     | NewPlugIn           | pascalcase          |
+| ProjectName | jekyll-kw-newplugin | lowercase paramcase |
 
-Transformations
+Transformations (combine them with `?`)
 
-| Key       | Value       | Transformations     |
-|-----------|-------------|---------------------|
-| Company   | <Company>   | pascalcase          |
-| Project | <Project> | pascalcase          |
-| ProjectName | <ProjectName> | lowercase paramcase |
+- **Company**     : `<Company>` ➔ <Company | pascalcase>
+- **Project**     : `<Project>`➔ <Project | pascalcase>
+- **ProjectName** : `<ProjectName>` ➔ <ProjectName | lowercase?paramcase>
 
-The var `Project` was transformed with `lowercase and paramcase` to `<Project | lowercase?paramcase>`.
+The namespace of the project `<ProjectName | lowercase?paramcase>` is `Jekyll::<Company | pascalcase>::<Project | pascalcase>`
 
-## Commands
+```ruby
+module Jekyll
+  module <Company | pascalcase>
+    module <Project | pascalcase>
+    ...
+    end
+  end
+end
+```
 
+## Commands and Clean-Up Steps
+
+- Check the content of `.gitignore` file
+- Delete not needed files and folders from root folder
+  - `STEPS.md`
+  - `README.md`
+  - `docu-img/`
+  - `.fttemplates/Create RubyGem project structure/`
+- Do the `initial commit` to the project
 - Install dependencies `bundle install`
 - Run tests `bundle exec rake test`
 - Create documentation `bundle exec rake rdoc`
-
-## Clean-Up Steps
-
-- Check the content of `.gitignore` file
-- Delete `STEPS.md` from root (it came with the template)
 
 ## Step 1
 

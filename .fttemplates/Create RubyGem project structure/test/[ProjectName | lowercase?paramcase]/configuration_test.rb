@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'test_helper'
-require 'jekyll/<Company | pascalcase>/<Project | pascalcase>/configuration'
+require '<ProjectName | lowercase?paramcase>/configuration'
 
 module Jekyll
   module <Company | pascalcase>
