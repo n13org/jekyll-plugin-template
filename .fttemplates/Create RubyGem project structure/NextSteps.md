@@ -30,7 +30,7 @@ end
 
 ## Commands and Clean-Up Steps
 
-- Check the content of `.gitignore` file
+- Check the content of `[.gitignore](.gitignore)` file
 - Delete not needed files and folders from root folder
   - `STEPS.md`
   - `README.md`
