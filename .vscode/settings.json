@@ -56,6 +56,7 @@
     "pascalcase",
     "Rakefile",
     "rdoc",
-    "Struct"
+    "Struct",
+    "whitesource"
   ],
 }
