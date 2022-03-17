@@ -22,14 +22,6 @@
   //       {
   //         "fileName": "test/jekyll/<Company>/<Project>/configuration_test.rb",
   //         "template": "NewJekyllPlugInAsRubyGem-test/jekyll/KargWare/PlugInTemplate/configuration_test.rb"
-  //       },
-  //       {
-  //         "fileName": "test/jekyll/<Company>/<Project>/version_test.rb",
-  //         "template": "NewJekyllPlugInAsRubyGem-test/jekyll/KargWare/PlugInTemplate/version_test.rb"
-  //       },
-  //       {
-  //         "fileName": "test/test_helper.rb",
-  //         "template": "NewJekyllPlugInAsRubyGem-test/test_helper.rb"
   //       }
   //     ]
   //   }],
@@ -165,47 +157,6 @@
   //       "    end",
   //       "  end",
   //       "end",
-  //       ""
-  //     ],
-  //     "NewJekyllPlugInAsRubyGem-test/jekyll/KargWare/PlugInTemplate/version_test.rb": [
-  //       "# frozen_string_literal: true",
-  //       "",
-  //       "require 'test_helper'",
-  //       "",
-  //       "module Jekyll",
-  //       "  module <Company>",
-  //       "    module <Project>",
-  //       "      class GeneralTest < Minitest::Test",
-  //       "        def test_that_it_has_a_rubygem_name",
-  //       "          refute_nil Jekyll::<Company>::<Project>::RUBYGEM_NAME",
-  //       "        end",
-  //       "",
-  //       "        def test_that_it_has_a_version_number",
-  //       "          refute_nil Jekyll::<Company>::<Project>::VERSION",
-  //       "        end",
-  //       "",
-  //       "        def test_fail_always_please_remove",
-  //       "          assert true",
-  //       "        end",
-  //       "      end",
-  //       "    end",
-  //       "  end",
-  //       "end",
-  //       ""
-  //     ],
-  //     "NewJekyllPlugInAsRubyGem-test/test_helper.rb": [
-  //       "# frozen_string_literal: true",
-  //       "",
-  //       "# $LOAD_PATH.unshift File.expand_path('../lib', __dir__)",
-  //       "# require 'jekyll/<Company>/<Project>'",
-  //       "# require 'jekyll/<Company>/<Project>/configuration",
-  //       "",
-  //       "require 'simplecov'",
-  //       "SimpleCov.start",
-  //       "",
-  //       "require 'minitest/autorun'",
-  //       "require 'minitest/reporters'",
-  //       "Minitest::Reporters.use!",
   //       ""
   //     ]
   //   }
