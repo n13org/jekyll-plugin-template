@@ -50,8 +50,10 @@
     "jekyll",
     "Karg",
     "KargWare",
+    "newplugin",
     "Nicolas",
     "paramcase",
+    "pascalcase",
     "Rakefile",
     "rdoc",
     "Struct"
