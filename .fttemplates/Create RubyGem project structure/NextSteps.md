@@ -18,7 +18,6 @@ Transformations
 | Project | <Project> | pascalcase          |
 | ProjectName | <ProjectName> | lowercase paramcase |
 
-
 The var `Project` was transformed with `lowercase and paramcase` to `<Project | lowercase?paramcase>`.
 
 ## Commands
