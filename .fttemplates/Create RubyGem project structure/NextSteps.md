@@ -40,6 +40,7 @@ end
 - Install dependencies `bundle install`
 - Run tests `bundle exec rake test`
 - Create documentation `bundle exec rake rdoc`
+- Observe the documentation (via docker) on [localhost:8099](http://localhost:8099) `docker run -d --rm -p 8099:80 --name rdoc-jekyll-kw -v $(pwd)/rdoc:/usr/local/apache2/htdocs/ httpd:alpine`
 
 ## Step 1
 
